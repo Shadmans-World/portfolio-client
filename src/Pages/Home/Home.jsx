@@ -1,10 +1,11 @@
 import React from 'react';
+import Information from './Information/Information';
 
 const Home = () => {
     return (
         <div>
-            
-            <h2 className="text-4xl">this is home</h2>
+            {/* Information */}
+            <Information/>
         </div>
     );
 };
