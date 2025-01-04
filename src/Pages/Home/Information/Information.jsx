@@ -34,10 +34,7 @@ const Information = () => {
           </h5>
 
           <p className="text-end">
-            I'm a dedicated fullstack web developer with a talent for problem
-            solving. I bring a wealth of experience and a meticulous attention
-            to detail to every project. My expertise and passion for innovative
-            web solutions make me a valuable asset to any team.
+          I'm a passionate Full Stack Web Developer with a strong problem-solving mindset. With hands-on experience in building dynamic, scalable applications, I combine technical expertise with a keen eye for detail. I am dedicated to creating innovative and efficient web solutions that drive results, and I thrive in collaborative environments, delivering high-quality projects that exceed expectations.
           </p>
           <div className="flex justify-end">
           <a href="/ShadmanCV.pdf" className="btn bg-sereneTeal hover:bg-sunsetOrange" download><GrDocumentPdf className="text-[16px]" /> Download CV</a>
