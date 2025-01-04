@@ -1,4 +1,5 @@
 import React from "react";
+import { GrDocumentPdf } from "react-icons/gr";
 import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -62,7 +63,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a href="/ShadmanCV.pdf" className="btn bg-sereneTeal hover:bg-sunsetOrange" download>Download CV</a>
+          <a href="/ShadmanCV.pdf" className="btn bg-sereneTeal hover:bg-sunsetOrange" download><GrDocumentPdf className="text-[16px]" />Download CV</a>
         </div>
       </div>
     </div>
