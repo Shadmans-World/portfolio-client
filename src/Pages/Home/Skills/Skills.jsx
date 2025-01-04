@@ -97,7 +97,7 @@ const Skills = () => {
 
       {/* Modal */}
       {modalData.isOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+        <div className="fixed z-10 inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <div className="bg-white rounded-lg p-5 w-[300px] text-center shadow-lg">
             <h3 className="text-xl font-bold mb-3">{modalData.title}</h3>
             <p className="text-sm text-gray-700 mb-5">{modalData.description}</p>

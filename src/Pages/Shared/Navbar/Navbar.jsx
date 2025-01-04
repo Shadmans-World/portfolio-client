@@ -27,7 +27,7 @@ const Navbar = () => {
     </li>
     </>
   return (
-    <div className="bg-deepOcean text-white">
+    <div className="bg-deepOcean text-white top-0 z-20 sticky">
       <div className="navbar ">
         <div className="navbar-start">
           <div className="dropdown">
