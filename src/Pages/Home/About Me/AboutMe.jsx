@@ -1,6 +1,6 @@
 import { div } from "motion/react-client";
 import React from "react";
-import aboutImg from "/about.png";
+
 const AboutMe = () => {
   return (
     <div className="my-5 pb-10">
@@ -11,7 +11,7 @@ const AboutMe = () => {
           <div className=" ">
             <img
               className="h-[454px] w-[330px] rounded-full border-8"
-              src={aboutImg}
+              src="https://i.ibb.co.com/S7p298W/about.png"
               alt=""
             />
           </div>

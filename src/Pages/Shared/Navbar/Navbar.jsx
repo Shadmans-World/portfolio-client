@@ -3,29 +3,26 @@ import { GrDocumentPdf } from "react-icons/gr";
 import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
-    const links = <>
-    <li className="mr-2 ">
-        <Link className="bg-sereneTeal  rounded-xl font-bold hover:bg-sunsetOrange" to='/'>Home</Link>
-    </li>
-    <li className="mr-2 ">
-        <Link className="bg-sereneTeal  rounded-xl font-bold hover:bg-sunsetOrange">Introduction</Link>
-    </li>
-    <li className="mr-2 ">
-        <Link className="bg-sereneTeal  rounded-xl font-bold hover:bg-sunsetOrange">About</Link>
-    </li>
-    <li className="mr-2 ">
-        <Link className="bg-sereneTeal  rounded-xl font-bold hover:bg-sunsetOrange">Skills</Link>
-    </li>
-    <li className="mr-2 ">
-        <Link className="bg-sereneTeal  rounded-xl font-bold hover:bg-sunsetOrange">Education</Link>
-    </li>
-    <li className="mr-2 ">
-        <Link className="bg-sereneTeal  rounded-xl font-bold hover:bg-sunsetOrange">Projects</Link>
-    </li>
-    <li className="mr-2 ">
-        <Link className="bg-sereneTeal  rounded-xl font-bold hover:bg-sunsetOrange">Contact</Link>
-    </li>
-    </>
+  const links = <>
+  <li className="mr-2">
+      <a className="bg-sereneTeal rounded-xl font-bold hover:bg-sunsetOrange" href="#information">Introduction</a>
+  </li>
+  <li className="mr-2">
+      <a className="bg-sereneTeal rounded-xl font-bold hover:bg-sunsetOrange" href="#about">About</a>
+  </li>
+  <li className="mr-2">
+      <a className="bg-sereneTeal rounded-xl font-bold hover:bg-sunsetOrange" href="#skills">Skills</a>
+  </li>
+  <li className="mr-2">
+      <a className="bg-sereneTeal rounded-xl font-bold hover:bg-sunsetOrange" href="#education">Education</a>
+  </li>
+  <li className="mr-2">
+      <a className="bg-sereneTeal rounded-xl font-bold hover:bg-sunsetOrange" href="#projects">Projects</a>
+  </li>
+  <li className="mr-2">
+      <a className="bg-sereneTeal rounded-xl font-bold hover:bg-sunsetOrange" href="#contact">Contact</a>
+  </li>
+</>;
   return (
     <div className="bg-deepOcean text-white top-0 z-20 sticky">
       <div className="navbar ">
@@ -54,8 +51,8 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <Link to='/'><img className="w-10" src="https://i.ibb.co.com/qgVwpdy/6229486.png" alt="sss logo" /></Link>
-          <Link to='/'><a className="btn btn-ghost text-xl">Shadman</a></Link>
+          <Link className="" to='/'><img className="w-10" src="https://i.ibb.co.com/qgVwpdy/6229486.png" alt="sss logo" /></Link>
+          <Link className="hidden md:block" to='/'><a className="btn btn-ghost text-xl">Shadman</a></Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

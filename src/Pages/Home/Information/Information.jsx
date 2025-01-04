@@ -1,5 +1,5 @@
 import React from "react";
-import shadImg from "/shadmanImage.png";
+
 import { FaFacebook, FaGithub, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaX, FaXTwitter } from "react-icons/fa6";
@@ -10,21 +10,16 @@ const Information = () => {
       <div className=" flex items-center px-2 ">
         {/* Button */}
         <div className="join join-vertical">
-          <button className="btn join-item bg-sereneTeal hover:bg-sunsetOrange ">
+          <a href="https://github.com/Shadmans-World" target="_blank" className="btn join-item bg-sereneTeal hover:bg-sunsetOrange ">
             <FaGithub />
-          </button>
-          <button className="btn join-item bg-sereneTeal hover:bg-sunsetOrange">
+          </a>
+          <a href="https://www.linkedin.com/in/shadman-undefined-839b65291/" target="_blank" className="btn join-item bg-sereneTeal hover:bg-sunsetOrange">
             <FaLinkedin />
-          </button>
-          <button className="btn join-item bg-sereneTeal hover:bg-sunsetOrange">
+          </a>
+          <a href="https://www.facebook.com/shadman.shoumik.shaon" target="_blank" className="btn join-item bg-sereneTeal hover:bg-sunsetOrange">
             <FaFacebook />
-          </button>
-          <button className="btn join-item bg-sereneTeal hover:bg-sunsetOrange">
-            <FaXTwitter />
-          </button>
-          <button className="btn join-item bg-sereneTeal hover:bg-sunsetOrange">
-            <FaWhatsapp />
-          </button>
+          </a>
+          
         </div>
         {/* Intro */}
         <div className="text-deepOcean flex flex-col space-y-4">
@@ -46,7 +41,7 @@ const Information = () => {
         <div className="lg:ml-40 ">
           <img
             className="h-[454px] w-[330px] rounded-full border-8"
-            src={shadImg}
+            src="https://i.ibb.co.com/YWX197B/Whats-App-Image-2025-01-04-at-01-44-12-9b527ffe-removebg.png"
             alt=""
           />
         </div>

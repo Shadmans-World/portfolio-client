@@ -9,7 +9,7 @@ const Projects = () => {
     useEffect(()=>{
         axios.get('/data.json')
         .then(res=> {
-          console.log(res.data)
+          // console.log(res.data)
           setProjects(res.data)
         })
         .catch(error=> {
