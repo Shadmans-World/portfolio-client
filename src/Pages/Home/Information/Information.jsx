@@ -45,7 +45,7 @@ const Information = () => {
         </div>
       </div>
       {/* Image */}
-      <div className="px-5 flex justify-center">
+      <div className="px-5 flex md:justify-start justify-center">
         <div className="lg:ml-40 ">
           <img
             className="h-[454px] w-[330px] rounded-full border-8"
