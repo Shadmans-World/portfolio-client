@@ -1,77 +1,100 @@
-[{
-        "id": 1,
-        "title": "EduHub Bangla",
-        "images": [
-            "https://i.ibb.co.com/3C66KYK/Screenshot-2025-01-04-223808.png",
-            "https://i.ibb.co.com/x7hJCc6/Screenshot-2025-01-04-223830.png",
-            "https://i.ibb.co.com/M9jgCLj/Screenshot-2025-01-04-223856.png",
-            "https://i.ibb.co.com/CBH8xM0/Screenshot-2025-01-04-223921.png",
-            "https://i.ibb.co.com/sQfshdN/Screenshot-2025-01-04-223945.png",
-            "https://i.ibb.co.com/3ptthF3/Screenshot-2025-01-04-224013.png",
-            "https://i.ibb.co.com/2cpQZHC/Screenshot-2025-01-04-224041.png",
-            "https://i.ibb.co.com/CH1PHqy/Screenshot-2025-01-04-224056.png",
-            "https://i.ibb.co.com/b7zkw2L/Screenshot-2025-01-04-224119.png"
-        ],
-        "liveLink": "https://edu-hub-bangla.web.app/",
-        "githubClientRepo": "https://github.com/Shadmans-World/edu-hub-bangla-client.git",
-        "githubServerRepo": "https://github.com/Shadmans-World/edu-hub-bangla-server.git",
-        "details": "Edu Hub Bangla is a platform that connects users with educational service providers, making it easier to book and manage educational services. This website aims to streamline the process of finding, booking, and managing educational services for users while allowing service providers to maintain control over their offerings.",
-        "features": [
-            "Educational Service Booking: Users can browse and book various educational services tailored to their needs.",
-            "Service Management for Providers: Providers can easily manage their services, including adding, editing, and removing offerings.",
-            "Secure Authentication with JWT: JSON Web Token (JWT) is used to ensure secure login and user authentication.",
-            "User and Provider Dashboards: Separate dashboards for users and providers to enhance functionality and usability.",
-            "Modern Design and Responsiveness: A sleek, responsive design ensures a seamless experience on all devices.",
-            "Interactive Forum: A community-driven forum for users to discuss educational topics and share knowledge."
-        ]
+[
+    {
+      "id": 1,
+      "title": "EduHub Bangla",
+      "images": [
+        "https://i.ibb.co/3C66KYK/Screenshot-2025-01-04-223808.png",
+        "https://i.ibb.co/x7hJCc6/Screenshot-2025-01-04-223830.png",
+        "https://i.ibb.co/M9jgCLj/Screenshot-2025-01-04-223856.png",
+        "https://i.ibb.co/CBH8xM0/Screenshot-2025-01-04-223921.png",
+        "https://i.ibb.co/sQfshdN/Screenshot-2025-01-04-223945.png"
+      ],
+      "technologyStack": [
+        "React",
+        "Tailwind CSS",
+        "DaisyUI",
+        "Firebase (Authentication & Hosting)",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT (Authentication)"
+      ],
+      "description": "EduHub Bangla is a platform that connects users with educational service providers, making it easier to book and manage educational services.",
+      "liveLink": "https://edu-hub-bangla.web.app/",
+      "githubClientRepo": "https://github.com/Shadmans-World/edu-hub-bangla-client.git",
+      "challengesFaced": [
+        "Implementing secure authentication with JWT",
+        "Managing different dashboards for users and providers",
+        "Ensuring a smooth and responsive user experience"
+      ],
+      "potentialImprovements": [
+        "Adding AI-based course recommendations",
+        "Implementing a rating & review system for providers",
+        "Enhancing the interactive forum with real-time discussions"
+      ]
     },
     {
-        "id": 2,
-        "title": "CineHive",
-        "images": [
-            "https://i.ibb.co.com/GJ7cN16/Screenshot-2025-01-04-225433.png",
-            "https://i.ibb.co.com/1GT7F0g/Screenshot-2025-01-04-225235.png",
-            "https://i.ibb.co.com/jGLzD3q/Screenshot-2025-01-04-225338.png",
-            "https://i.ibb.co.com/1GJp7nm/Screenshot-2025-01-04-225400.png",
-            "https://i.ibb.co.com/QFTdqLg/Screenshot-2025-01-04-225416.png"
-        ],
-        "liveLink": "https://cinevibe-216d1.web.app",
-        "githubClientRepo": "https://github.com/Shadmans-World/cine-hive-client.git",
-        "githubServerRepo": "https://github.com/Shadmans-World/cine-hive-server.git",
-        "details": "CineHive is the ultimate spot for movie lovers! Discover your next favorite film, add movies to your collection, keep track of your favorites, and explore upcoming releases.",
-        "features": [
-            "Discover Movies: Browse through a wide selection of movies from all genres, including upcoming releases, and find something new to watch!",
-            "Smart Search: Quickly find movies by title with our intuitive search functionality.",
-            "Save Your Favorites: Add your favorite movies to your personal collection for easy access anytime!",
-            "Upcoming Releases: Stay ahead of the game and explore movies that are coming soon to theaters or streaming platforms.",
-            "Update Movies Anytime: Keep your movie list up-to-date with the latest releases or changes to existing movies.",
-            "Delete from Favorites: Change your mind? You can easily remove movies from your favorites list whenever you want.",
-            "Movie Details: Get all the important info you need: plot summaries, release years, and more.",
-            "Fully Responsive: Whether you're on your desktop, tablet, or phone, enjoy a seamless experience on any device."
-        ]
+      "id": 2,
+      "title": "CineHive",
+      "images": [
+        "https://i.ibb.co/GJ7cN16/Screenshot-2025-01-04-225433.png",
+        "https://i.ibb.co/1GT7F0g/Screenshot-2025-01-04-225235.png",
+        "https://i.ibb.co/jGLzD3q/Screenshot-2025-01-04-225338.png",
+        "https://i.ibb.co/1GJp7nm/Screenshot-2025-01-04-225400.png",
+        "https://i.ibb.co/QFTdqLg/Screenshot-2025-01-04-225416.png"
+      ],
+      "technologyStack": [
+        "React",
+        "Tailwind CSS",
+        "DaisyUI",
+        "Firebase (Authentication & Hosting)",
+        "Node.js",
+        "Express.js",
+        "MongoDB"
+      ],
+      "description": "CineHive is a movie discovery platform where users can explore movies, track favorites, and stay updated on upcoming releases.",
+      "liveLink": "https://cinevibe-216d1.web.app/",
+      "githubClientRepo": "https://github.com/Shadmans-World/cine-hive-client.git",
+      "challengesFaced": [
+        "Efficiently managing movie data and search functionality",
+        "Designing a user-friendly interface for movie tracking",
+        "Ensuring seamless API integration for fetching movie details"
+      ],
+      "potentialImprovements": [
+        "Implementing a recommendation engine based on user preferences",
+        "Adding user-generated movie reviews & ratings",
+        "Creating a watchlist feature for upcoming releases"
+      ]
     },
     {
-        "id": 3,
-        "title": "Beautiful Bangladesh",
-        "images": [
-            "https://i.ibb.co.com/hVsFVyW/Screenshot-2025-01-04-225914.png",
-            "https://i.ibb.co.com/1XwRPgq/Screenshot-2025-01-04-225716.png",
-            "https://i.ibb.co.com/YPvxRHG/Screenshot-2025-01-04-225811.png",
-            "https://i.ibb.co.com/zGT9VbQ/Screenshot-2025-01-04-225833.png",
-            "https://i.ibb.co.com/7Kqtnd1/Screenshot-2025-01-04-225852.png"
-        ],
-        "liveLink": "https://eco-adventure-experience-66659.web.app/",
-        "githubClientRepo": "https://github.com/Shadmans-World/Eco-Adventure-Experiences.git",
-        "details": "BEAUTIFUL BANGLADESH is your gateway to explore the breathtaking natural beauty and eco-friendly tourism experiences in Bangladesh. From lush green hills to serene rivers and rich cultural heritage, we offer sustainable travel options that allow you to immerse yourself in the beauty of nature while making a positive impact on the environment.",
-        "features": [
-            "Eco-Friendly Travel Packages: Discover eco-conscious adventures that highlight Bangladesh's pristine landscapes, nature reserves, and hidden gems.",
-            "Quick Navigation Links: Easily navigate through intuitive sections like Home, About Us, Services, and Contact to find exactly what you're looking for.",
-            "Comprehensive Contact Information: Get in touch with us via email, phone, or visit our office in Dhaka for personalized support and inquiries.",
-            "Social Media Integration: Stay connected and updated! Follow us on our social media channels to stay inspired and join the conversation. Facebook, Twitter, Instagram, GitHub, and LinkedIn.",
-            "AOS Animations: Enjoy smooth animations that bring the website to life as you scroll through stunning images and content.",
-            "Dynamic Image Sliders: Experience an interactive image carousel powered by react-awesome-slider, showcasing the best of Bangladesh's tourist destinations.",
-            "Mobile-Responsive Design: Whether you're on a laptop or smartphone, the site is fully optimized for all screen sizes.",
-            "Expert Advice: Need personalized travel advice? Contact one of our experts for tailored recommendations. Our team is ready to guide you through your eco-friendly journey."
-          ]
+      "id": 3,
+      "title": "Beautiful Bangladesh",
+      "images": [
+        "https://i.ibb.co/hVsFVyW/Screenshot-2025-01-04-225914.png",
+        "https://i.ibb.co/1XwRPgq/Screenshot-2025-01-04-225716.png",
+        "https://i.ibb.co/YPvxRHG/Screenshot-2025-01-04-225811.png",
+        "https://i.ibb.co/zGT9VbQ/Screenshot-2025-01-04-225833.png",
+        "https://i.ibb.co/7Kqtnd1/Screenshot-2025-01-04-225852.png"
+      ],
+      "technologyStack": [
+        "React",
+        "Tailwind CSS",
+        "DaisyUI",
+        "Firebase (Authentication & Hosting)"
+      ],
+      "description": "Beautiful Bangladesh is an eco-tourism platform that promotes sustainable travel experiences in Bangladesh.",
+      "liveLink": "https://eco-adventure-experience-66659.web.app/",
+      "githubClientRepo": "https://github.com/Shadmans-World/Eco-Adventure-Experiences.git",
+      "challengesFaced": [
+        "Creating an engaging visual experience with animations",
+        "Integrating interactive image sliders and smooth navigation",
+        "Ensuring mobile responsiveness for a seamless browsing experience"
+      ],
+      "potentialImprovements": [
+        "Introducing a booking system for eco-friendly travel packages",
+        "Adding a blog section for travel guides & tips",
+        "Implementing a user review & rating system for destinations"
+      ]
     }
-]
+  ]
+  

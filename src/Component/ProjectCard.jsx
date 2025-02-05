@@ -1,99 +1,45 @@
-import React, { useRef, useState } from "react";
-
+import React from "react";
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "../Pages/Home/Projects/projectCard.css";
-
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
-import { p } from "motion/react-client";
+
 const ProjectCard = ({ project }) => {
-  const {
-    title,
-    images,
-    liveLink,
-    githubClientRepo,
-    githubServerRepo,
-    details,
-    features
-  } = project;
   return (
-    <div className="card bg-base-100  shadow-xl">
+    <div className="card bg-base-100 shadow-lg rounded-lg p-4">
+      {/* Swiper for Project Images */}
       <Swiper
         cssMode={true}
         navigation={true}
-        pagination={true}
+        pagination={{ clickable: true }}
         mousewheel={true}
         keyboard={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-        className="mySwiper"
+        className="w-full h-48 rounded-lg overflow-hidden"
       >
-        {images.map((image, idx) => (
+        {project.images.map((image, idx) => (
           <SwiperSlide key={idx}>
-            <img src={image} alt={`Slide ${idx}`} />
+            <img
+              src={image}
+              alt={`Slide ${idx}`}
+              className="w-full h-48 object-cover rounded-lg"
+            />
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="card-body flex flex-col gap-y-4 justify-center items-center">
-        <div className="flex justify-center">
-          <h2 className="card-title ">{title}</h2>
-        </div>
-        <div className="flex flex-wrap gap-5 justify-center items-center">
-          <a
-            className="btn bg-sereneTeal hover:bg-sunsetOrange"
-            href={liveLink}
-          >
-            Live LInk
-          </a>
-          <a
-            className="btn bg-sereneTeal hover:bg-sunsetOrange"
-            href={githubClientRepo}
-          >
-            Github Client Repo
-          </a>
 
-          {githubServerRepo ? (
-            <a
-              className="btn bg-sereneTeal hover:bg-sunsetOrange"
-              href={githubServerRepo}
-            >
-              Github Server Repo
-            </a>
-          ) : (
-            ""
-          )}
-        </div>
+      {/* Project Name */}
+      <h2 className="text-xl font-bold mt-4 text-center">{project.title}</h2>
 
-        <div className="card-actions ">
-          <button  onClick={() => document.getElementById("my_modal_5").showModal()} className="btn bg-sereneTeal hover:bg-sunsetOrange">
-            See Details
-          </button>
-        </div>
-      </div>
-      {/* Open the modal using document.getElementById('ID').showModal() method */}
-     
-      <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
-        <div className="modal-box">
-        <h3 className="text-center text-3xl font-bold mb-6">{title}</h3>
-          <p>{details}</p>
-          <div>
-            <h4 className="text-3xl mt-5 border-b-2 mb-2">Features</h4>
-            <ul class="list-disc pl-5">
-                {
-                    features.map((feature,idx)=> <li className="my-2" key={idx}>{feature}</li>)
-                }
-            </ul>
-          </div>
-          <div className="modal-action">
-            <form method="dialog">
-              {/* if there is a button in form, it will close the modal */}
-              <button className="btn bg-sereneTeal hover:bg-sunsetOrange">Close</button>
-            </form>
-          </div>
-        </div>
-      </dialog>
+      {/* "View More / Details" Button */}
+      <Link
+        to={`/project/${project.id}`} 
+        className="btn bg-sereneTeal hover:bg-sunsetOrange text-white mt-4 w-full"
+      >
+        View More / Details
+      </Link>
     </div>
   );
 };
